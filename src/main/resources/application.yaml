@@ -1,0 +1,13 @@
+spring:
+  application:
+    name: SkillSwap
+
+  datasource:
+    url: jdbc:postgresql://localhost:7878/skillswap_db
+    username: postgres
+    password: ${DB_PASSWORD}
+
+  jpa:
+    hibernate:
+      ddl-auto: update
+    show-sql: true
